@@ -4,4 +4,6 @@ document.querySelector('#triceratops').style.width = '324px';
 document.querySelector('#hide-me').style.display = 'none';
 document.querySelector('#triceratops').addEventListener('click', function(){document.querySelector('#triceratops').style.border = '2px solid red';})
 document.querySelector('#feathers').addEventListener('click', function(){document.querySelector('#feathers').style.opacity = '50%'})
+document.querySelector('#rattle').addEventListener('click', function(){document.querySelector('#rattle').style.paddingRight = '100px'})
+document.querySelector('#toggle').addEventListener('click', function(){document.querySelector('#row').style.backgroundColor = 'lightblue';})
 
