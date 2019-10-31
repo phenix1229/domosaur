@@ -9,5 +9,5 @@ document.querySelector('#toggle').addEventListener('click', function(){document.
 document.querySelector('#toggle').addEventListener('dblclick', function(){document.querySelector('#row').style.backgroundColor = 'white';})
 document.querySelector('#t-rex').addEventListener('mouseover', function(){document.querySelector('#t-rex').style.width = '200px';})
 document.querySelector('#t-rex').addEventListener('mouseover', function(){document.querySelector('#t-rex').style.width = '200px';})
-document.querySelector('#t-rex').addEventListener('onmouseout', function(){document.querySelector('#t-rex').style.width = '162px';})
+document.querySelector('#t-rex').addEventListener('mouseout', function(){document.querySelector('#t-rex').style.width = '162px';})
 
